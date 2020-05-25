@@ -1,0 +1,68 @@
+
+#maket {
+    width: 100%; /* Ширина всей таблицы */
+   }
+   TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+    padding: 5px; /* Поля вокруг ячеек */
+   }
+   #col1 {
+    width: 10%; /* Ширина первой колонки */
+    background: #90ee90; /* Цвет фона первой колонки */
+   }
+   #col2 {
+    width: 50%; /* Ширина второй колонки */
+    background: #90ee90; /* Цвет фона второй колонки */
+   }
+   #col3 {
+    width: 40%; /* Ширина третьей колонки */
+    background: #90ee90; /* Цвет фона третьей колонки */
+   }
+   
+ul.nav{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul.nav a{
+  display: block;
+  width: 200px;
+  background: #65e665;
+  line-height: 1.5em;
+  padding: 3px;
+  border: solid 1px rgb(0, 9 ,0);
+	color:#000000;
+	padding: 4px;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+header  {
+	color: black;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.main{
+  background: #90ee90;
+	float: left;
+	width: 60%;
+	padding: 0 20px 0 20px;
+	border-left:dashed	1px rgb(140, 140, 150);
+	border-right:dashed	1px rgb(140, 140, 150);
+}
+.main h2 {
+	font-size: 2em;
+	margin-top: 10px;
+}
+.main h3 {
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+.main p {
+	margin-bottom: 15px;
+}
+.content-wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
